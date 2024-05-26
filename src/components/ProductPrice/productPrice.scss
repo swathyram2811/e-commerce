@@ -1,0 +1,15 @@
+.price-wrapper {
+  display: flex;
+  align-items: center;
+
+  .currency {
+    font-size: 0.8rem;
+  }
+
+  .product-price {
+    font-size: 1.5rem;
+    color: #0f1111;
+    font-weight: 500;
+    padding-left: 0.1rem;
+  }
+}

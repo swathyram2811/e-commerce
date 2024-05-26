@@ -1,0 +1,90 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  justify-content: center;
+  padding: 5rem;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    width: calc(100% - 3.2rem);
+    max-width: 30rem;
+
+    .card-content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1.6rem;
+      flex-grow: 1;
+    }
+
+    .product-name {
+      font-size: 1.2rem;
+      line-height: 2.4rem;
+      font-weight: bold;
+      margin: 0.8rem 0;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer;
+
+      &:hover {
+        color: #ba3131;
+      }
+    }
+
+    .product-info {
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .add-to-basket {
+      background-color: #fbd815;
+      width: 10rem;
+      padding: 0.5rem;
+      font-size: 1.1em;
+      border-radius: 2.5rem;
+      border-color: #d5d9d9;
+      border-style: solid;
+      border-width: 0.1rem;
+
+      &:hover {
+        background-color: #eecf1d;
+        cursor: pointer;
+      }
+    }
+  }
+
+  /* Media queries for responsive design */
+  @media (min-width: 600px) {
+    .card {
+      /* 2 cards per row */
+      flex: 1 1 calc(50% - 3.2rem);
+    }
+  }
+
+  @media (min-width: 900px) {
+    .card {
+      /* 3 cards per row */
+      flex: 1 1 calc(33.33% - 3.2rem);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .card {
+      /* 4 cards per row */
+      flex: 1 1 calc(25% - 3.2rem);
+    }
+  }
+}

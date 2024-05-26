@@ -1,0 +1,17 @@
+.img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .product-image {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    max-width: 18rem;
+    max-height: 45rem;
+    aspect-ratio: 3 / 4;
+    object-fit: contain;
+    object-position: center;
+  }
+}

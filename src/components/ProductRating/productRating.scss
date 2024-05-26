@@ -1,0 +1,19 @@
+.product-rating {
+  display: flex;
+  align-items: center;
+  margin: 0.8rem 0;
+
+  .star-rating {
+    display: flex;
+    gap: 0.2rem;
+
+    .star {
+      color: gold;
+    }
+  }
+
+  .rating-count {
+    margin-left: 0.8rem;
+    color: #007185;
+  }
+}

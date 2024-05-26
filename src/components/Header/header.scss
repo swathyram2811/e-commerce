@@ -1,0 +1,57 @@
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2b3a47;
+  padding: 1rem 2rem;
+
+  .logo img {
+    cursor: pointer;
+    height: 4rem;
+  }
+
+  .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    gap: 1rem;
+
+    .search-box {
+      position: relative;
+      width: 50%;
+      padding: 0.8rem;
+      border-radius: 0.4rem;
+      border: 0.1rem solid #ccc;
+    }
+
+    .category-filter {
+      padding: 0.8rem;
+      border-radius: 0.4rem;
+      border: 0.1rem solid #ccc;
+      background-color: #fff;
+    }
+  }
+  .cart-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    img {
+      cursor: pointer;
+      height: 3rem;
+    }
+  }
+  .cart-count {
+    position: absolute;
+    top: 0rem;
+    right: -1rem;
+    color: white;
+    background-color: crimson;
+    border-radius: 50%;
+    padding: 0rem 0.4rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}

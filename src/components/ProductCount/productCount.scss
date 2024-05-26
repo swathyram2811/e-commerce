@@ -1,0 +1,27 @@
+.prod-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+
+  .counter-button {
+    width: 1.8rem;
+    border: 0.1rem solid #ddd;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .counter-input {
+    width: 4rem;
+    height: 2rem;
+    border: 0.1rem solid #ddd;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 0 0.5rem;
+  }
+}
