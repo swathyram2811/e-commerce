@@ -1,6 +1,6 @@
 # React Shopping Cart Application
 
-    This is a simple shopping cart application built with React. It fetches product data from the FakeStore API and allows users to add products to their cart, view product details, and manage their cart. The cart is stored in local storage.
+    This is a simple shopping cart application built with React. It fetches product data from the FakeStore API and allows users to add products to their cart, view product details, and manage their cart. The cart is stored in local storage. The application will run at http://localhost:3000/
 
 ## Features
     1.  Fetch products from FakeStore API.
