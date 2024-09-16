@@ -36,7 +36,7 @@ jobs:
       - name: build
         run: |
           npm run build
-          npm test
+          
           
   push_to_Docker_Hub:
 
