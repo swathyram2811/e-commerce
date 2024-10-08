@@ -25,13 +25,14 @@ const Header: React.FC = () => {
   const location = useLocation();
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter") {
+   
       const query = (e.target as HTMLInputElement).value;
       const trimmedQuery = query.trim();
+      console.log(trimmedQuery,selectedCategory,"selctehdsh")
       setSearchQuery(trimmedQuery);
       filterProducts(trimmedQuery, selectedCategory);
       navigateToHome();
-    }
+    
   };
 
   const navigateToHome = () => {

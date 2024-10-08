@@ -39,6 +39,8 @@ const Home: React.FC = () => {
 
   return (
     <div className="cards-container">
+    {/* <div>Home Page</div> */}
+
       {displayProducts?.map((product: IProduct) => {
         return (
           <article className="card" key={product?.id}>

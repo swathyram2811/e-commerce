@@ -32,9 +32,14 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-      # build and test the apps
-      - name: build
+
+       # test the apps
+      - name: test
         run: |
+            npm run test
+        # build the apps
+      -  name: build
+         run: |
           npm run build
           
           
