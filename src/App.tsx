@@ -23,7 +23,7 @@ const App: React.FC = () => {
     })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
+//app
   return (
     <Routes>
       <Route path={paths.home} element={<Home />} />
