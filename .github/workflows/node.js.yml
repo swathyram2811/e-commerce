@@ -18,6 +18,7 @@ jobs:
       matrix:
         node-version: [14.x]
 
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -40,7 +41,7 @@ jobs:
         # build the apps
       -  name: build
          run: |
-          npm run build
+            npm run build
           
           
   push_to_Docker_Hub:
